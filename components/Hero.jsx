@@ -4,7 +4,7 @@ export default function Hero() {
       <div />
       <div className="grid grid-cols-2">
         <div>
-          <h1 className="text-5xl font-black text-amber-400">
+          <h1 className="text-5xl font-black text-white">
             SOLUCIONES EMPRESARIALES Y DE GOBIERNO SEYGOB SAS
           </h1>
           <p className="font-extrabold text-xl">
@@ -12,14 +12,7 @@ export default function Hero() {
             integrales facilitando sus tareas diarias
           </p>
         </div>
-        <div>
-          <span>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
-            veniam odit alias delectus, nisi esse eius repudiandae optio
-            doloribus, temporibus vitae quae facere deserunt similique
-            excepturi. Maxime pariatur dignissimos nisi?
-          </span>
-        </div>
+        <div></div>
       </div>
     </div>
   );

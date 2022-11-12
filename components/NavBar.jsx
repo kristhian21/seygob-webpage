@@ -38,19 +38,19 @@ export default function NavBar() {
           <Image src={`${logo}`} alt="Logo image" width={50} height={50} />
           <h1
             style={{ color: `${textColor}` }}
-            className="font-bold text-4xl ml-6"
+            className="font-bold text-3xl ml-6 tracking-widest"
           >
             SEYGOB
           </h1>
         </Link>
         <ul style={{ color: `${textColor}` }} className="hidden sm:flex">
-          <li className="p-4">
+          <li className="p-4 font-bold text-l hover:text-yellow-400">
             <Link href="/">Nuestro trabajo</Link>
           </li>
-          <li className="p-4">
+          <li className="p-4 font-bold text-l  hover:text-yellow-400">
             <Link href="/soluciones">Soluciones</Link>
           </li>
-          <li className="p-4">
+          <li className="p-4 font-bold text-l  hover:text-yellow-400">
             <Link href="/contacto">Contacto</Link>
           </li>
         </ul>
@@ -74,19 +74,19 @@ export default function NavBar() {
           <ul>
             <li
               onClick={handleNav}
-              className="p-4 text-4xl hover:text-gray-500"
+              className="p-4 text-4xl hover:text-yellow-400"
             >
               <Link href="/">Nuestro trabajo</Link>
             </li>
             <li
               onClick={handleNav}
-              className="p-4 text-4xl hover:text-gray-500"
+              className="p-4 text-4xl hover:text-yellow-400"
             >
               <Link href="/soluciones">Soluciones</Link>
             </li>
             <li
               onClick={handleNav}
-              className="p-4 text-4xl hover:text-gray-500"
+              className="p-4 text-4xl hover:text-yellow-400"
             >
               <Link href="/contacto">Contacto</Link>
             </li>
