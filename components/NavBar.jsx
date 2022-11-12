@@ -11,7 +11,7 @@ export default function NavBar() {
   };
 
   return (
-    <div className="fixed left-0 top-0 w-full z-10 ease-in duration-300 bg-slate-50 border-2 border-b-slate-300/75">
+    <div className="fixed left-0 top-0 w-full z-10 ease-in duration-300 bg-slate-50 border-2 border-b-slate-300/75 shadow-md">
       <div className="max-w-[1240px] m-auto flex justify-between items-center p-4 ">
         <Link href="/" className="flex items-center">
           <Image src="/logo.png" alt="Logo image" width={50} height={50} />
@@ -20,13 +20,13 @@ export default function NavBar() {
           </h1>
         </Link>
         <ul className="hidden sm:flex  text-slate-500">
-          <li className="p-4 text-xl hover:text-blue-600 font-semibold">
+          <li className="p-4 text-l hover:text-blue-600 font-semibold">
             <Link href="/">Acerca de</Link>
           </li>
-          <li className="p-4 text-xl hover:text-blue-600 font-semibold">
+          <li className="p-4 text-l hover:text-blue-600 font-semibold">
             <Link href="/soluciones">Soluciones</Link>
           </li>
-          <li className="p-4 text-xl hover:text-blue-600 font-semibold">
+          <li className="p-4 text-l hover:text-blue-600 font-semibold">
             <Link href="/contacto">Contacto</Link>
           </li>
         </ul>
