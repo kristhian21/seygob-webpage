@@ -16,7 +16,7 @@ export default function Hero() {
             integrales facilitando sus tareas diarias
           </p>
         </div>
-        <div className="hidden sm:w-1/2 sm:flex justify-end mt-8">
+        <div className="w-1/2 flex justify-center items-center mt-8">
           <Image
             className="rounded-lg shadow-xl shadow-slate-900/60"
             src={`${image}`}

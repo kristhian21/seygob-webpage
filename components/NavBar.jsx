@@ -44,13 +44,13 @@ export default function NavBar() {
           </h1>
         </Link>
         <ul style={{ color: `${textColor}` }} className="hidden sm:flex">
-          <li className="p-4 font-bold text-l hover:text-yellow-400">
+          <li className="p-4 font-semibold text-lg hover:text-yellow-400">
             <Link href="/">Nuestro trabajo</Link>
           </li>
-          <li className="p-4 font-bold text-l  hover:text-yellow-400">
+          <li className="p-4 font-semibold text-lg  hover:text-yellow-400">
             <Link href="/soluciones">Soluciones</Link>
           </li>
-          <li className="p-4 font-bold text-l  hover:text-yellow-400">
+          <li className="p-4 font-semibold text-lg  hover:text-yellow-400">
             <Link href="/contacto">Contacto</Link>
           </li>
         </ul>

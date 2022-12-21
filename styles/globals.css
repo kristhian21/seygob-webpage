@@ -2,9 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-html{
+html, body{
   scroll-behavior: smooth;
   font-family: 'Roboto', sans-serif, Segoe UI;
+  background-color: #f1f5f9;
 }
 
 .custom-image{
